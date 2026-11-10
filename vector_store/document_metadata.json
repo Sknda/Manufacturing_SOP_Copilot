@@ -1,0 +1,30 @@
+[
+    {
+        "document_number": "MNT-MAN-CNC-02",
+        "revision": 2,
+        "effective_date": "2026-01-20",
+        "source_file": "MNT-MAN-CNC-02_TX-200_Preventive_Maintenance.pdf",
+        "total_pages": 2
+    },
+    {
+        "document_number": "QC-SOP-014",
+        "revision": 3,
+        "effective_date": "2023-03-15",
+        "source_file": "QC-SOP-014_Rev03_Incoming_Material_Inspection.pdf",
+        "total_pages": 1
+    },
+    {
+        "document_number": "QC-SOP-014",
+        "revision": 4,
+        "effective_date": "2026-07-01",
+        "source_file": "QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf",
+        "total_pages": 2
+    },
+    {
+        "document_number": "SAF-SOP-003",
+        "revision": 5,
+        "effective_date": "2026-02-12",
+        "source_file": "SAF-SOP-003_Lockout_Tagout_Procedure.pdf",
+        "total_pages": 2
+    }
+]

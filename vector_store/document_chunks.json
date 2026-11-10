@@ -1,0 +1,164 @@
+[
+    {
+        "chunk_id": "MNT-MAN-CNC-02_REV2_P1_C1",
+        "text": "MNT-MAN-CNC-02 | Rev 02 | Uncontrolled copy when printed. Refer to QMS for the latest version.\nPage 1\nKaveri Precision Components Pvt. Ltd. - Hosur Plant\nPreventive Maintenance Manual - TX-200 CNC Turning Centre\nDocument No.\nMNT-MAN-CNC-02\nRevision\n02\nEffective Date\n20-Jan-2026\nPage\nSee footer\nPrepared By\nS. Arun, Maintenance Engineer\nApproved By\nV. Ramesh, Maintenance Manager\n1. Purpose\nThis manual defines the preventive maintenance (PM) activities, operating parameters and common alarms\nfor the TX-200 CNC turning centres (machines CNC-04 to CNC-09) used on the shaft machining line.\n2. Safety First\nBefore starting any maintenance activity other than daily operator checks, the machine must be isolated as\nper SAF-SOP-003 Lockout/Tagout. Never open the electrical cabinet or hydraulic circuit on a running or\nenergised machine.\n3. Normal Operating Parameters\nParameter\nNormal range\nCheck method\nHydraulic system pressure\n3.5 - 4.0 MPa (35 - 40 bar)\nPanel pressure gauge",
+        "document_number": "MNT-MAN-CNC-02",
+        "revision": 2,
+        "effective_date": "2026-01-20",
+        "source_file": "MNT-MAN-CNC-02_TX-200_Preventive_Maintenance.pdf",
+        "page_number": 1
+    },
+    {
+        "chunk_id": "MNT-MAN-CNC-02_REV2_P1_C2",
+        "text": "machine.\n3. Normal Operating Parameters\nParameter\nNormal range\nCheck method\nHydraulic system pressure\n3.5 - 4.0 MPa (35 - 40 bar)\nPanel pressure gauge\nChuck clamping pressure\n2.0 - 2.5 MPa\nChuck pressure gauge\nCoolant concentration\n6 - 8 %\nRefractometer reading x 1.0 factor\nCoolant tank level\nBetween MIN and MAX marks\nSight glass\nWay lube oil\nISO VG 68\nVisual, top-up as needed\nSpindle runout (at chuck face)\n0.005 mm max.\nDial indicator\nCompressed air supply\n5.5 - 6.5 bar\nFRL unit gauge\n4. Preventive Maintenance Schedule\nFrequency\nActivity\nDone by\nDaily (start of shift)\nCheck hydraulic pressure, coolant level, way lube level, air pressure;\nclean chips from slideways\nOperator\nWeekly\nCheck coolant concentration; clean coolant tank filter; check chuck jaw\nwear\nOperator\nMonthly\nCheck spindle runout; inspect hydraulic hoses for leaks or cracks; clean\nelectrical cabinet fan filter\nMaintenance\ntechnician\nQuarterly\nReplace hydraulic return filter; check turret alignment; check backlash on",
+        "document_number": "MNT-MAN-CNC-02",
+        "revision": 2,
+        "effective_date": "2026-01-20",
+        "source_file": "MNT-MAN-CNC-02_TX-200_Preventive_Maintenance.pdf",
+        "page_number": 1
+    },
+    {
+        "chunk_id": "MNT-MAN-CNC-02_REV2_P1_C3",
+        "text": "racks; clean\nelectrical cabinet fan filter\nMaintenance\ntechnician\nQuarterly\nReplace hydraulic return filter; check turret alignment; check backlash on\nX and Z axes\nMaintenance\ntechnician\nYearly\nReplace hydraulic oil (ISO VG 46); full geometric accuracy check;\nreplace coolant completely\nMaintenance\nengineer\n5. Chuck Mounting Bolt Torque\nWhen re-mounting the chuck after maintenance, tighten the mounting bolts in a criss-cross sequence to 110\nNm using a calibrated torque wrench.\n6. Common Alarms\nAlarm\nMeaning\nOperator action\nAL-101\nHydraulic pressure low\nStop cycle. Check oil level and pressure gauge. Call maintenance if\npressure stays below 3.5 MPa.",
+        "document_number": "MNT-MAN-CNC-02",
+        "revision": 2,
+        "effective_date": "2026-01-20",
+        "source_file": "MNT-MAN-CNC-02_TX-200_Preventive_Maintenance.pdf",
+        "page_number": 1
+    },
+    {
+        "chunk_id": "MNT-MAN-CNC-02_REV2_P2_C1",
+        "text": "MNT-MAN-CNC-02 | Rev 02 | Uncontrolled copy when printed. Refer to QMS for the latest version.\nPage 2\nAlarm\nMeaning\nOperator action\nAL-104\nWay lube oil level low\nTop up with ISO VG 68 oil to the MAX mark, then press RESET.\nMachine can continue after reset.\nAL-210\nChuck clamp not confirmed\nDo not start cycle. Check chuck pressure and part seating. Call\nmaintenance if repeated.\nAL-305\nSpindle overload\nStop cycle. Check tool wear and cutting parameters. Inform shift\nsupervisor.\nAL-412\nCoolant level low\nTop up coolant mixed to 6 - 8 % concentration.\n7. Replacing a Hydraulic Hose\n1. Isolate the machine as per SAF-SOP-003, including releasing stored hydraulic pressure.\n2. Confirm the panel pressure gauge reads zero before loosening any fitting.\n3. Place a drip tray under the hose and loosen the fittings slowly.\n4. Fit a new hose of the same rating and tighten fittings.\n5. Remove locks as per SAF-SOP-003, start the hydraulic unit and confirm pressure returns to 3.5 - 4.0\nMPa with no leaks.",
+        "document_number": "MNT-MAN-CNC-02",
+        "revision": 2,
+        "effective_date": "2026-01-20",
+        "source_file": "MNT-MAN-CNC-02_TX-200_Preventive_Maintenance.pdf",
+        "page_number": 2
+    },
+    {
+        "chunk_id": "QC-SOP-014_REV3_P1_C1",
+        "text": "QC-SOP-014 | Rev 03 | Uncontrolled copy when printed. Refer to QMS for the latest version.\nPage 1\nKaveri Precision Components Pvt. Ltd. - Hosur Plant\nIncoming Material Inspection - Standard Operating Procedure\nDocument No.\nQC-SOP-014\nRevision\n03\nEffective Date\n15-Mar-2023\nPage\nSee footer\nPrepared By\nR. Selvam, QC Engineer\nApproved By\nM. Prakash, QC Manager\n1. Purpose\nThis procedure describes how incoming raw materials and bought-out components are inspected at the\nreceiving area before they are released to stores and production.\n2. Scope\nApplies to all steel bar stock, castings, forgings and bought-out components received at the Hosur plant.\n3. Responsibilities\n• Stores Executive: receives material, checks quantity against the delivery challan and informs QC.\n• QC Inspector: carries out sampling, visual and dimensional inspection, and records results.\n• QC Supervisor: approves acceptance or rejection of the lot.\n4. Procedure",
+        "document_number": "QC-SOP-014",
+        "revision": 3,
+        "effective_date": "2023-03-15",
+        "source_file": "QC-SOP-014_Rev03_Incoming_Material_Inspection.pdf",
+        "page_number": 1
+    },
+    {
+        "chunk_id": "QC-SOP-014_REV3_P1_C2",
+        "text": "rries out sampling, visual and dimensional inspection, and records results.\n• QC Supervisor: approves acceptance or rejection of the lot.\n4. Procedure\n1. Stores Executive places the received lot in the Incoming Inspection Area and raises an inspection\nrequest.\n2. QC Inspector collects the purchase order, drawing and supplier test certificate (if available).\n3. Draw 5 samples at random from every lot, irrespective of lot size.\n4. Perform visual inspection for rust, dents, cracks and burrs.\n5. Perform dimensional inspection on all critical dimensions using a vernier caliper.\n6. If all 5 samples are within specification, the lot is accepted. If any sample fails, the complete lot is\nrejected.\n7. Record results on paper form QF-07 Incoming Inspection Report and file it in the QC office.\n8. Accepted material is tagged with a GREEN tag and moved to stores.\n9. Rejected material is tagged with a RED tag and kept in the Red Bin area near Gate 2 until it is returned\nto the supplier.",
+        "document_number": "QC-SOP-014",
+        "revision": 3,
+        "effective_date": "2023-03-15",
+        "source_file": "QC-SOP-014_Rev03_Incoming_Material_Inspection.pdf",
+        "page_number": 1
+    },
+    {
+        "chunk_id": "QC-SOP-014_REV3_P1_C3",
+        "text": "tag and moved to stores.\n9. Rejected material is tagged with a RED tag and kept in the Red Bin area near Gate 2 until it is returned\nto the supplier.\n10. QC Supervisor informs Purchase by email about rejected lots by end of the shift.\n5. Records\n• QF-07 Incoming Inspection Report (paper) - retained for 2 years.\n6. Revision History\nRev\nDate\nChange\n01\n10-Jan-2019\nFirst issue\n02\n05-Aug-2021\nAdded visual inspection criteria\n03\n15-Mar-2023\nChanged sample size to 5 for all lots",
+        "document_number": "QC-SOP-014",
+        "revision": 3,
+        "effective_date": "2023-03-15",
+        "source_file": "QC-SOP-014_Rev03_Incoming_Material_Inspection.pdf",
+        "page_number": 1
+    },
+    {
+        "chunk_id": "QC-SOP-014_REV4_P1_C1",
+        "text": "QC-SOP-014 | Rev 04 | Uncontrolled copy when printed. Refer to QMS for the latest version.\nPage 1\nKaveri Precision Components Pvt. Ltd. - Hosur Plant\nIncoming Material Inspection - Standard Operating Procedure\nDocument No.\nQC-SOP-014\nRevision\n04\nEffective Date\n01-Jul-2026\nPage\nSee footer\nPrepared By\nK. Divya, Supplier Quality Engineer\nApproved By\nM. Prakash, QC Manager\n1. Purpose\nThis procedure describes how incoming raw materials and bought-out components are inspected at the\nreceiving area before they are released to stores and production.\n2. Scope\nApplies to all steel bar stock, castings, forgings and bought-out components received at the Hosur plant,\nincluding machined BH-220 bearing housings received from sub-contractors.\n3. Responsibilities\n• Stores Executive: receives material, checks quantity against the delivery challan and raises the\ninspection request in the QMS app.\n• QC Inspector: carries out sampling, visual and dimensional inspection, and records results in the QMS\napp.",
+        "document_number": "QC-SOP-014",
+        "revision": 4,
+        "effective_date": "2026-07-01",
+        "source_file": "QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf",
+        "page_number": 1
+    },
+    {
+        "chunk_id": "QC-SOP-014_REV4_P1_C2",
+        "text": "es the\ninspection request in the QMS app.\n• QC Inspector: carries out sampling, visual and dimensional inspection, and records results in the QMS\napp.\n• Shift QC Supervisor: approves acceptance, rejection or hold of the lot.\n• Supplier Quality Engineer (SQE): handles supplier communication for rejected or held lots.\n4. Sampling Plan\nDefects are classified as follows:\n• Critical: a defect that can cause a safety risk or failure of the part, e.g. crack, wrong material grade, or a\ndimension out of tolerance on a characteristic marked Critical.\n• Major: a defect that affects fit or function but is not critical, e.g. deep dent, damaged thread, or a\ndimension out of tolerance on a characteristic marked Major.\n• Minor: a cosmetic defect that does not affect fit or function, e.g. light surface marks or light surface rust\nthat can be removed by cleaning.\nThe number of samples depends on the lot size. Minor defects are allowed only as shown below.\nLot size (pieces)\nSamples to inspect",
+        "document_number": "QC-SOP-014",
+        "revision": 4,
+        "effective_date": "2026-07-01",
+        "source_file": "QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf",
+        "page_number": 1
+    },
+    {
+        "chunk_id": "QC-SOP-014_REV4_P1_C3",
+        "text": "emoved by cleaning.\nThe number of samples depends on the lot size. Minor defects are allowed only as shown below.\nLot size (pieces)\nSamples to inspect\nAccept if minor defects are\nReject if minor defects are\n2 - 5\nAll pieces\n0\n1 or more\n6 - 90\n5\n0\n1 or more\n91 - 500\n13\n0\n1 or more\n501 - 3,200\n32\n1 or fewer\n2 or more\nAbove 3,200\n50\n2 or fewer\n3 or more\nAny critical defect in any sample: the complete lot is rejected and returned to the supplier. Sorting is not\nallowed.\nAny major defect in any sample: the complete lot is rejected. The SQE may decide to have the lot 100%\nsorted at the supplier's cost instead of returning it.\n5. Procedure",
+        "document_number": "QC-SOP-014",
+        "revision": 4,
+        "effective_date": "2026-07-01",
+        "source_file": "QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf",
+        "page_number": 1
+    },
+    {
+        "chunk_id": "QC-SOP-014_REV4_P2_C1",
+        "text": "QC-SOP-014 | Rev 04 | Uncontrolled copy when printed. Refer to QMS for the latest version.\nPage 2\n1. Stores Executive places the received lot in the Incoming Inspection Area and raises an inspection request\nin the QMS app.\n2. QC Inspector checks that the supplier's Material Test Certificate (MTC) is attached. The MTC is\nmandatory. If it is missing, the lot is put on HOLD and must not be inspected or accepted until the MTC is\nreceived.\n3. Draw samples at random as per the sampling plan in Section 4.\n4. Perform visual inspection for rust, dents, cracks and burrs.\n5. Perform dimensional inspection using a calibrated digital caliper. Dimensions of BH-220 housings marked\nCMM in Section 6 must be checked on the CMM.\n6. Record results in the QMS app using digital form QF-07A. Paper form QF-07 is no longer used.\n7. Accepted material is tagged with a GREEN tag and moved to stores.\n8. Rejected material is tagged with a RED tag and moved to Quarantine Cage Q1, Stores Bay 3. The cage",
+        "document_number": "QC-SOP-014",
+        "revision": 4,
+        "effective_date": "2026-07-01",
+        "source_file": "QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf",
+        "page_number": 2
+    },
+    {
+        "chunk_id": "QC-SOP-014_REV4_P2_C2",
+        "text": "is tagged with a GREEN tag and moved to stores.\n8. Rejected material is tagged with a RED tag and moved to Quarantine Cage Q1, Stores Bay 3. The cage\nis locked; the key is held by the Shift QC Supervisor.\n9. The Shift QC Supervisor must inform the SQE within 4 hours of rejection. The SQE raises a Supplier\nCorrective Action Request (SCAR).\n6. Inspection Dimensions - BH-220 Bearing Housing (Machined, from\nsub-contractor)\nAll values in millimetres. Dimensions marked CMM must be checked on the coordinate measuring machine.\nCharacteristic\nNominal\nTolerance\nMethod\nClass\nBore diameter\n52.000\n+0.030 / -0.000\nCMM\nCritical\nOuter diameter\n90.000\n+/- 0.050\nDigital caliper\nMajor\nOverall height\n38.00\n+/- 0.10\nDigital caliper\nMajor\nMounting hole PCD\n72.00\n+/- 0.05\nCMM\nCritical\nMounting hole diameter (4x)\n9.00\n+0.20 / -0.00\nPin gauge\nMajor\nBore concentricity to OD\n-\n0.02 max.\nCMM\nCritical\n7. Records\n• QF-07A Incoming Inspection Report (digital, in QMS app) - retained for 5 years.",
+        "document_number": "QC-SOP-014",
+        "revision": 4,
+        "effective_date": "2026-07-01",
+        "source_file": "QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf",
+        "page_number": 2
+    },
+    {
+        "chunk_id": "QC-SOP-014_REV4_P2_C3",
+        "text": "e\nMajor\nBore concentricity to OD\n-\n0.02 max.\nCMM\nCritical\n7. Records\n• QF-07A Incoming Inspection Report (digital, in QMS app) - retained for 5 years.\n• Supplier MTCs - scanned and attached to the QF-07A record.\n8. Revision History\nRev\nDate\nChange\n01\n10-Jan-2019\nFirst issue\n02\n05-Aug-2021\nAdded visual inspection criteria\n03\n15-Mar-2023\nChanged sample size to 5 for all lots\n04\n01-Jul-2026\nSupersedes Rev 03. Lot-size based sampling plan; MTC made mandatory; quarantine\nmoved to Cage Q1; digital form QF-07A; 4-hour SQE escalation; BH-220 critical\ndimensions added.",
+        "document_number": "QC-SOP-014",
+        "revision": 4,
+        "effective_date": "2026-07-01",
+        "source_file": "QC-SOP-014_Rev04_Incoming_Material_Inspection.pdf",
+        "page_number": 2
+    },
+    {
+        "chunk_id": "SAF-SOP-003_REV5_P1_C1",
+        "text": "SAF-SOP-003 | Rev 05 | Uncontrolled copy when printed. Refer to QMS for the latest version.\nPage 1\nKaveri Precision Components Pvt. Ltd. - Hosur Plant\nLockout / Tagout (LOTO) - Safety Procedure\nDocument No.\nSAF-SOP-003\nRevision\n05\nEffective Date\n12-Feb-2026\nPage\nSee footer\nPrepared By\nJ. Fathima, Safety Officer\nApproved By\nA. Krishnan, Plant Head\n1. Purpose\nTo protect people from the unexpected start-up of machines or release of stored energy (electrical, hydraulic,\npneumatic, mechanical) during maintenance, cleaning, setting or repair.\n2. Scope\nApplies to all employees and contract workers at the Hosur plant who maintain, clean or repair machines,\nincluding CNC turning centres, presses and compressors.\n3. Definitions\n• Authorised person: a trained employee who applies their own personal lock and tag to isolate energy.\n• Affected person: an operator or employee who works in the area but does not perform the isolation.",
+        "document_number": "SAF-SOP-003",
+        "revision": 5,
+        "effective_date": "2026-02-12",
+        "source_file": "SAF-SOP-003_Lockout_Tagout_Procedure.pdf",
+        "page_number": 1
+    },
+    {
+        "chunk_id": "SAF-SOP-003_REV5_P1_C2",
+        "text": "heir own personal lock and tag to isolate energy.\n• Affected person: an operator or employee who works in the area but does not perform the isolation.\n• Zero energy state: the condition where all energy sources are isolated and stored energy is released, so\nthat the machine cannot move or release energy.\n4. Lockout Procedure\n1. Inform all affected persons that the machine is being shut down for maintenance.\n2. Stop the machine using the normal stop sequence.\n3. Isolate all energy sources: main electrical isolator, compressed air valve, and hydraulic power unit.\n4. Apply your personal red lock and danger tag to each isolation point. Each authorised person working\non the machine applies their own lock. Use a multi-lock hasp when more than one person is involved.\n5. Release stored energy: bleed hydraulic pressure and accumulators until the gauge reads zero, vent\ncompressed air to 0 bar, and block any parts that can fall under gravity.",
+        "document_number": "SAF-SOP-003",
+        "revision": 5,
+        "effective_date": "2026-02-12",
+        "source_file": "SAF-SOP-003_Lockout_Tagout_Procedure.pdf",
+        "page_number": 1
+    },
+    {
+        "chunk_id": "SAF-SOP-003_REV5_P1_C3",
+        "text": ": bleed hydraulic pressure and accumulators until the gauge reads zero, vent\ncompressed air to 0 bar, and block any parts that can fall under gravity.\n6. Verify zero energy: try to start the machine from the control panel and confirm it does not start. Confirm\nall pressure gauges read zero. Return controls to OFF.\n5. Removing Locks\n1. Check that tools and materials are removed and guards are refitted.\n2. Confirm all persons are clear of the machine.\n3. Each authorised person removes only their own lock. Nobody may remove another person's lock.\n4. Inform affected persons that the machine is being restarted.\n6. Removal of a Lock When the Owner Is Absent\nIf an authorised person has left the plant without removing their lock, the lock may be removed only through\nthis procedure:\n1. The Shift Supervisor makes every reasonable effort to contact the lock owner by phone.\n2. If the owner cannot be reached, the Production Manager and the Safety Officer must both authorise\nremoval.",
+        "document_number": "SAF-SOP-003",
+        "revision": 5,
+        "effective_date": "2026-02-12",
+        "source_file": "SAF-SOP-003_Lockout_Tagout_Procedure.pdf",
+        "page_number": 1
+    },
+    {
+        "chunk_id": "SAF-SOP-003_REV5_P1_C4",
+        "text": "fort to contact the lock owner by phone.\n2. If the owner cannot be reached, the Production Manager and the Safety Officer must both authorise\nremoval.\n3. The machine is physically inspected to confirm it is safe to re-energise.",
+        "document_number": "SAF-SOP-003",
+        "revision": 5,
+        "effective_date": "2026-02-12",
+        "source_file": "SAF-SOP-003_Lockout_Tagout_Procedure.pdf",
+        "page_number": 1
+    },
+    {
+        "chunk_id": "SAF-SOP-003_REV5_P2_C1",
+        "text": "SAF-SOP-003 | Rev 05 | Uncontrolled copy when printed. Refer to QMS for the latest version.\nPage 2\n4. The removal is recorded on form SF-12 Lock Removal Record.\n5. The lock owner must be informed before they resume work on their next shift.\n7. Training and Audits\n• All authorised persons must complete LOTO training before applying locks, with refresher training every\n12 months.\n• The Safety Officer audits LOTO practice on each shift at least once a month.\n• Violation of this procedure is treated as a serious safety breach.",
+        "document_number": "SAF-SOP-003",
+        "revision": 5,
+        "effective_date": "2026-02-12",
+        "source_file": "SAF-SOP-003_Lockout_Tagout_Procedure.pdf",
+        "page_number": 2
+    }
+]

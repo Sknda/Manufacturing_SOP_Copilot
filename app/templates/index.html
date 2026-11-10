@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manufacturing SOP Copilot</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-content">
+            <div>
+                <h1>Manufacturing SOP Copilot</h1>
+                <p>Operational guidance from approved manufacturing documents</p>
+            </div>
+            <span class="system-status">
+                <span class="status-dot"></span>
+                System Online
+            </span>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="welcome-section">
+            <h2>How can I help you?</h2>
+            <p>
+                Ask questions about machine maintenance, quality inspection,
+                safety procedures and other supplied manufacturing SOPs.
+            </p>
+        </section>
+
+        <section class="question-section">
+            <form id="question-form">
+                <label for="question">Enter your question</label>
+
+                <textarea id="question" name="question" placeholder="Example: What does alarm AL-104 indicate?" rows="3"
+                    required></textarea>
+
+                <div class="input-footer">
+                    <span id="character-count">0 / 1000</span>
+                    <button type="submit" id="submit-button">
+                        Ask Copilot
+                    </button>
+                </div>
+            </form>
+        </section>
+
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <span>Searching SOP documents and generating an answer...</span>
+        </div>
+
+        <section id="response-section" class="response-section hidden">
+
+            <div class="response-header">
+                <h3>Copilot Response</h3>
+                <span id="response-status" class="response-status"></span>
+            </div>
+
+            <div class="answer-block">
+                <h4>Answer</h4>
+                <p id="answer-text"></p>
+            </div>
+
+            <div id="sources-section" class="sources-section hidden">
+                <h4>Source References</h4>
+                <div id="sources-list"></div>
+            </div>
+
+            <div id="excerpt-section" class="excerpt-section hidden">
+                <h4>Supporting Excerpt</h4>
+                <blockquote id="excerpt-text"></blockquote>
+            </div>
+
+        </section>
+
+        <div id="error-message" class="error-message hidden"></div>
+
+        <section class="notice">
+            <strong>Important:</strong>
+            This copilot provides guidance based on the supplied SOP documents.
+            Always follow applicable safety procedures and consult the
+            responsible department when information is missing or unclear.
+        </section>
+
+    </main>
+
+    <footer>
+        Manufacturing SOP Copilot · Prototype
+    </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
