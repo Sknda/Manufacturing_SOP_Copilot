@@ -250,7 +250,73 @@ The response includes:
 
 The application also exposes an HTTP 503 response when Gemini is temporarily unavailable or rate-limited.
 
+## Question Evaluation
 
+The following questions cover the five questions supplied with the assignment and five additional questions selected to test retrieval, revision handling and abstention.
+
+A. Supplied questions
+
+1. What is the recommended coolant concentration for the TX-200?
+
+Expected answer: Maintain coolant concentration between 6% and 8%, using a refractometer with a factor of 1.0.
+
+Source: MNT-MAN-CNC-02, Revision 02, page 1.
+
+2. What does alarm AL-104 indicate, and what action should be taken?
+
+Expected answer: AL-104 indicates low way lube oil. Top up with ISO VG 68 oil to the MAX level and press RESET. Operation can continue after the reset.
+
+Source: MNT-MAN-CNC-02, Revision 02, page 2.
+
+3. Who is permitted to remove a Lockout/Tagout lock?
+
+Expected answer: Each authorized person must remove their own lock. If the lock owner is absent, the exceptional procedure requires attempting to contact the owner. If unreachable, both the Production Manager and Safety Officer must authorize removal after physically inspecting the equipment for safety. The action must be recorded using SF-12 and the owner informed.
+
+Source: SAF-SOP-003, Revision 05, pages 1–2.
+
+4. What is the acceptable outer diameter tolerance for BH-220?
+
+Expected answer: The BH-220 outer diameter is 90.000 ± 0.050 mm, measured using a digital caliper. The characteristic is classified as Major.
+
+Source: QC-SOP-014, Revision 04, page 2.
+
+5. How frequently should spindle runout be checked, and what is the acceptable limit?
+
+Expected answer: Maintenance personnel must check spindle runout monthly. The maximum permitted runout is 0.005 mm at the chuck face, using a dial indicator.
+
+Source: MNT-MAN-CNC-02, Revision 02, page 1.
+
+B. Additional questions
+
+6. For an incoming material lot of 200 pieces, how many samples should QC inspect?
+
+Expected answer: Inspect 13 samples, as a lot size between 91 and 500 requires a sample size of 13.
+
+Source: QC-SOP-014, Revision 04, page 1.
+
+7. What should QC do if the supplier Material Test Certificate (MTC) is missing?
+
+Expected answer: The MTC is mandatory under the current incoming material inspection procedure. The material must be placed on hold until the required certificate is available.
+
+Source: QC-SOP-014, Revision 04, page 1.
+
+8. Can an operator remove another employee's LOTO lock?
+
+Expected answer: No. Each authorized person removes only their own lock. The absent-owner exception requires the specific authorization, safety inspection and documentation procedure described in the SOP.
+
+Source: SAF-SOP-003, Revision 05, pages 1–2.
+
+9. Which revision of the incoming material inspection SOP should be used?
+
+Expected answer: Revision 04 is the applicable revision in the supplied documents. It explicitly supersedes Revision 03 and has an effective date of 01-Jul-2026.
+
+Source: QC-SOP-014, Revision 04, page 1.
+
+10. What is the company's employee leave policy?
+
+Expected answer: The supplied documents do not contain the company's employee leave policy. The copilot should respond that it does not have sufficient information rather than inventing a policy.
+
+Expected behavior: insufficient_information, with no supporting source citations.
 
 ## Revision Handling
 
